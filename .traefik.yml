@@ -1,9 +1,10 @@
-displayName: Provider Plugin Demo
+displayName: Apache Mesos Provider Plugin 
 type: provider
 
-import: github.com/traefik/pluginproviderdemo
+import: github.com/AVENTER-UG/traefik-mesos-provider
 
-summary: '[Demo] Simple Provider Plugin'
+summary: 'Apache Mesos Provider Plugin' 
 
 testData:
-  pollInterval: 5s
+  principal: ""
+  sectet: ""
